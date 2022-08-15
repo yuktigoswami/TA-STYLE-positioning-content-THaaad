@@ -1,0 +1,263 @@
+/*custom reset*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*custom style*/
+body {
+    background-color: aliceblue;
+    font-family: "Open Sans" sans-serif; 
+    line-height: 1.5;
+    font-size: 24px;
+    color: #fff;
+}
+header {
+    padding:50px ;
+    color: #000;
+}
+main {
+    background-color: white;
+}
+header {
+    background-color: rgb(104, 104, 251);
+}
+.h1 {
+    font-size: 25px;
+    line-height: 40px;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 58px;
+}
+.a {
+    float: right;
+    margin-right: 55px;
+    line-height: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+nav {
+    display: inline-block;
+    width: 90%;
+}
+.h2 {
+    color: white;
+    font-weight: 100;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 25px;
+}
+.p1 {
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 60px;
+}
+.h3 {
+    color: rgb(60, 60, 235);
+    font-size: 18px;
+    margin-top: 60px;
+}
+.text {
+    color: #000;
+    font-size: 12px;
+    margin-top: 20px;
+}
+.section-1 {
+    width: 15%;
+    float: left;
+    margin-left: 7%;
+    font-size: 18px;
+}
+.section-2 {
+    width: 15%;
+    float: left;
+    margin-left: 18%;
+    font-size: 18px;
+}
+.section-3 {
+    width: 15%;
+    float: left;
+    margin-left: 18%;
+    font-size: 18px;
+}
+.clearfix::before, .clearfix::after {
+    content: "";
+    display: table;
+}
+.clearfix::after {
+    clear: both;
+}
+.more {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    background-color: rgb(104, 104, 251) ;
+    padding:10px ;
+    line-height: 4.5;
+}
+.container-3 {
+    background-color: rgb(104, 104, 251);
+}
+.p2 {
+    color: white;
+    font-size: 37px;
+    text-align: center;
+    margin-top: 60px;
+    padding-top: 80px;
+}
+img {
+    border-radius: 50%;
+    display: inline-block;
+}
+.p3 {
+   font-size: 12px;
+   color: white;
+   margin-left: 30%;
+}
+.h4 {
+    color: #fff;
+    font-size: 18px;
+    margin-left: 30%;
+}
+.clearfix::before, .clearfix::after {
+    content: "";
+    display: table;
+}
+.clearfix::after {
+    clear: both;
+}
+.img-1 {
+    float: left;
+    width: 12%;
+    margin-left: 8%;
+    border:1px solid white;
+    padding: 27px;
+    margin-bottom: 6%;
+}
+.img-2 {
+    float: left;
+    width: 12%;
+    margin-left:6%;
+    border:1px solid white ;
+    padding: 27px;
+    margin-bottom: 6%;
+}
+.img-3 {
+    float: left;
+    width: 12%;
+    margin-left: 6%;
+    border: 1px solid white;
+    padding: 27px;
+    margin-bottom: 6%;
+}
+.img-4 {
+    float: right;
+    width: 12%;
+    margin-right: 12%;
+    border: 1px solid white;
+    padding: 27px;
+    margin-bottom: 6%;
+}
+.container-4 {
+    background-color: white;
+}
+.h5 {
+    font-size: 35px;
+    text-align: center; 
+    color: rgb(104, 104, 251);
+    margin-top: 60px;
+}
+.p4 {
+    font-size: 16px;
+    color: #000;
+    text-align: center;
+}
+.img-5 {
+    float: left;
+    width: 35%;
+    margin-left: 3%;
+    padding: 64px;
+}
+.img-6 {
+    float: right;
+    width:35% ;
+    margin-right: 9%;
+    padding: 64px;
+}
+.img2 {
+    border-radius: 0%;
+}
+.h6 {
+    color: rgb(60, 60, 235);
+    font-size: 18px;
+    margin-top: 20px;
+}
+.p5 {
+    color: #000;
+    font-size: 16px;
+    margin-top: 15px;
+}
+hr {
+    margin-left: 7%;
+    margin-right: 9%;
+}
+.footer {
+    background-color: white;
+    padding: 40px 0;
+    
+}
+.small {
+    color: #000;
+    margin-left: 7%;
+    font-size: 14px;
+}
+.nav-2 {
+    float: right;
+    font-size: 13px;
+}
